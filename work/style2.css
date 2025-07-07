@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(238, 237, 238);
+
+}
+h1{
+    color: rgb(245, 244, 242);
+    background: linear-gradient(to right, orangered,rgb(255, 179, 3));
+}
+
+h5{
+    color: orangered;
+    background-color: white;
+   
+}
+h6{
+    color:white;
+    background-color: orangered;
+}
+footer{
+    color: rgb(245, 244, 242);
+    background-color: orangered;
+
+}
+p{
+     color: orangered;
+    background-color: white;
+}
+h2{
+    color: aliceblue;
+    background-color: orangered;
+}
+article{
+    color: rgb(245, 244, 242);
+    background: linear-gradient(to right, orangered,rgb(255, 179, 3));
+
+}
