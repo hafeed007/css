@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style >
+    .div1 {
+      background-color: blueviolet;
+      color: beige;
+      height: 300px;
+      width: 400px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-top: 70px;
+
+
+    }
+
+    .div2 {
+      background-color: rgb(220, 188, 249);
+      color: blueviolet;
+      height: 70px;
+      width: 400px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-top: 4px;
+      margin-top: 0;
+      font-size: 35px;
+    }
+
+
+    .container2 {
+      background-color: blueviolet;
+      /* color: ; */
+      height: 80px;
+      width: 400px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-top: 0;
+      padding-top: 4px;
+    }
+
+    .container {
+      display: flex;
+      background-color: black;
+      height: 442px;
+      width: 850px;
+      background-image: url('https://i.ytimg.com/vi/v-_PqQoLt1g/maxresdefault.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: right;
+
+
+    }
+
+    .padded-box {
+      padding: 0px;
+      border: 0px solid blueviolet;
+      width: 403px;
+      height: 413px;
+    }
+
+    .landing {
+      border-radius: 10px;
+      display: flex;
+
+      background:linear-gradient(to right, rgb(255, 51, 0),rgb(253, 215, 1));
+       display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 340px;
+      width: 270px;
+      ;
+      color: aliceblue;
+      text-align: center;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="padded-box">
+    <div class="container">
+      <div class="div1">
+        <h1>
+          <center>LANDING<BR>
+            PAGE WITH<BR>
+            MODAL<BR>
+            FORMS</center>
+        </h1>
+
+
+        <div class="div2">
+          <center><b>HTML CSS JS</center></b>
+        </div>
+        <div class="container2"> </div>
+      </div>
+    </div>
+
+    <center>
+    <div class="landing">
+    
+    <!-- Modal Form -->
+    <div class="modal">
+      <div class="modal-content">
+       
+        <h2>CodeAndCreate</h2>
+        <p>JOIN US</p>
+        <form>
+          <div class="input-group">
+            <input type="text" placeholder="Username" required />
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="input-group">
+            <input type="password" placeholder="Password" required />
+          </div>
+          <button type="submit" class="signup-btn">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

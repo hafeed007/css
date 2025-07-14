@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        {
+    block-size: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+}
+body{
+    background-color:rgb(0, 48, 56);
+    color: aliceblue;
+
+}
+header{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 40px;
+}
+section{
+    text-align: center;
+    margin-top: 2%;
+}
+.container{
+    display: inline-block;
+    margin: 20px;
+    border-radius: 5px;
+}
+.block,
+.inline,
+.inline-block{
+    background-color: teal;
+    height: 300px;
+    width:400px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+.inline1{
+    background-color: lightgreen;
+    height: 50px;
+    width: 150px;
+    /* padding: ; */
+    margin: 5px 10px;
+    display: inline-block;
+}
+.inline2{
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.inline3{
+    background-color: gold;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+
+}
+.inline4{
+    background-color: skyblue;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+}
+.block1{
+    background-color: lightgreen;
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin: 10px;
+}
+.block2{
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin: 10px;
+}
+.block3{
+    background-color: gold;
+    height: 50px;
+    width: 100px;
+    display: block;
+    margin: 10px;
+
+}
+.block4{
+    background-color: skyblue;
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin: 10px;
+}
+.inline-block1{
+    background-color: lightgreen;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin: 15px;
+}
+.inline-block2{
+    background-color: blueviolet;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin: 15px;
+}
+.inline-block3{
+    background-color: gold;
+    height: 50px;
+    width: 110px;
+    display: inline-block;
+    margin: 15px;
+}
+.inline-block4{
+    background-color: skyblue;
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin: 15px;
+}
+    </style>
+</head>
+<body>
+    <body>
+   <header>
+    <h2>BLOCK VS INLINE VS INLINE-BLOCK</h2>
+   </header>
+
+   <section>
+    <div class="container">
+        <div class="block">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+            <div class="block4"></div>
+
+        </div>
+        <div class="description">
+            <h4>display: <span style="color: blue;">block</span></h4>
+                <p>Block elements stack , regardless of their width</p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="inline">
+            <div class="inline1"></div>
+            <div class="inline2"></div>
+            <div class="inline3"></div>
+            <div class="inline4"></div>
+
+
+        </div>
+
+        <div class="description">
+            <h4>display: <span style="color: blue;">Inline</span></h4>
+            <p>inline elements flow from one line to the next</p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="inline-block">
+            <div class="inline-block1"></div>
+            <div class="inline-block2"></div>
+            <div class="inline-block3"></div>
+            <div class="inline-block4"></div>
+
+        </div>
+
+        <div class="description">
+            <h4>display: <span style="color: blue;">Inline - block</span></h4>
+            <p>Block elements stack, regardless of thier width</p>
+        </div>
+
+    </div>
+   </section>
+</body>
+</html>

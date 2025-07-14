@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .static1{
+            background-color: aquamarine;
+            padding: 20px;
+            position: static;
+        }
+        .static2{
+            background: navy;
+            color: aliceblue;
+            padding: 20px;
+            position: static;
+            top: 50px;  /*this will have no effect*/
+            left: 50px; /*this will have no effect*/
+        }
+    </style>
+</head>
+<body>
+    <div class="static1">box 1 - static</div>
+    <div class="static2">box 2 - static(top/left has no effect)</div>
+</body>
+</html>

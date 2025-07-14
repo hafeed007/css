@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Landing Page with Modal</title>
+  
+ <style>
+   .main-container {
+  display: flex;
+  background-color: blueviolet;
+            color: beige;
+            height: 300px;
+            width: 250px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 70px;
+}
+
+.right-panel {
+  position: relative;
+}
+
+.bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.form-container {
+  position: absolute;
+  top: 20px;     /* Adjust as needed */
+  left: 20px;    /* Adjust as needed */
+  background: linear-gradient(to right, orange, yellow);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  color: white;
+}
+ </style>
+</head>
+<body>
+ <div class="main-container">
+  <div class="left-panel">
+    <h1><center>LANDING<BR>
+            PAGE WITH<BR>
+            MODAL<BR>
+            FORMS</center></h1>
+    <h2>HTML CSS JS</h2>
+  </div>
+  <div class="right-panel">
+    <img src="" alt="Road" class="bg-image" />
+    <div class="form-container">
+      <h2>CodeAndCreate</h2>
+      <p>JOIN US</p>
+      <input type="text" placeholder="Username" />
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Password" />
+      <button>SIGN UP</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>
