@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;/* enable grid layout*/
+            grid-template-columns: 1fr 1fr 1fr;/* 3 equal columns */
+            grid-template-rows: auto auto;/* 2rows (height-auto- adjust)*/
+            gap: 10px;/*space b/w */
+            padding: 20px;
+            background:linear-gradient(rgb(106, 1, 106),rgb(240, 5, 44));
+        }
+        .grid-item{
+            background:linear-gradient(to right, rgb(228, 228, 224) ,rgb(87, 7, 134));
+            color: rgb(251, 251, 251);
+            font-size: 1.5rem;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">1</div>
+        <div class="grid-item">2</div>
+        <div class="grid-item">3</div>
+        <div class="grid-item">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        
+    </div>
+</body>
+</html>

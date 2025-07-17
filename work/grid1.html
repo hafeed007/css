@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:rgb(37, 36, 40);
+  color: white;
+}
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content1"
+    "sidebar content2"
+    "sidebar content3"
+    "footer footer";
+   grid-template-columns: 2fr 2fr ;
+  grid-gap: 15px;
+  padding: 15px;
+  height: 900px;
+  box-sizing: border-box;
+}
+
+
+header {
+  grid-area: header;
+  background: linear-gradient(to right, #a006e1, #6c5ce7);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: linear-gradient(to right, #1abc9c, #16a085);
+  padding: 20px;
+  text-align: center ;
+  border-radius: 10px;
+ 
+}
+
+.content1 {
+  grid-area: content1;
+  background: linear-gradient(to left, #2980b9, #6dd5fa);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.content2 {
+  grid-area: content2;
+  background: linear-gradient(to left, #6a11cb, #2575fc);
+  padding: 70px;
+  text-align: centerl;
+  border-radius: 10px;
+  width: 59px;
+  
+  
+ 
+  
+}
+
+.content3 {
+  grid-area: content3;
+  background: linear-gradient(to left, #8e44ad, #6dd5fa);
+  padding: 70px;
+  text-align: center;
+  border-radius: 10px;
+  width: 59px;
+  
+  
+ 
+ 
+}
+
+footer {
+  grid-area: footer;
+  background: linear-gradient(to top, #8e44ad, #6c5ce7);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+ 
+}
+.MANIYAN{
+  display: flex;
+  padding: 15px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  height: 400px;
+  width: 600px;
+
+
+}
+    </style>
+</head>
+<body>
+     <div class="container">
+    <header class="header">header</header>
+    <aside class="sidebar">sidebar</aside>
+    <main class="content1">Content-1</main> 
+
+  <div class="MANIYAN">  <section class="content2">Content-2</section>
+    <section class="content3">Content-3</section></div>
+    <footer class="footer">footer</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+:root{
+    --main-color:rgb(7, 7, 163);
+    --padding-size:10px;
+    background-color: rgba(14, 3, 45, 0.982);
+}
+
+.box{
+    background-color: var(--main-color);
+    padding: var(--padding-size)
+    ;
+    border: 2px solid #f3db03;
+    width: 300px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+    color: rgb(254, 233, 3); 
+}
